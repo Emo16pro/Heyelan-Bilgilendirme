@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heyelan Bilinçlendirme Platformu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #f0f2f5;
+      color: #333;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #34495e;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+    section {
+      background-color: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 0.5rem;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 6px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+    footer {
+      text-align: center;
+      background-color: #2c3e50;
+      color: white;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Heyelan Bilinçlendirme Platformu</h1>
+    <p>Toplumda farkındalık oluşturmak için birlikte çalışıyoruz</p>
+  </header>
+
+  <nav>
+    <a href="#nedir">Heyelan Nedir?</a>
+    <a href="#neden">Neden Önemlidir?</a>
+    <a href="#foto">Fotoğraf Galerisi</a>
+    <a href="#egitim">Eğitim Materyalleri</a>
+    <a href="#kaynak">Kaynaklar</a>
+  </nav>
+
+  <main>
+    <section id="nedir">
+      <h2>Heyelan Nedir?</h2>
+      <p>Heyelan, yerçekiminin etkisiyle zeminin dengesini kaybedip aşağıya doğru kayması olayıdır. Bu olay toprak, kaya veya karışık zemin malzemelerini kapsayabilir.</p>
+    </section>
+
+    <section id="neden">
+      <h2>Heyelan Bilinci Neden Önemlidir?</h2>
+      <p>Heyelanlar ciddi can ve mal kayıplarına yol açabilir. Bu yüzden halkın heyelan tehlikeleri hakkında bilinçli olması, gerekli önlemleri zamanında almasını sağlar. Bilinçlenme ile hayatlar kurtarılabilir.</p>
+    </section>
+
+    <section id="foto">
+      <h2>Heyelan Fotoğraf Galerisi</h2>
+      <div class="gallery">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Landslide_Afghanistan_2014.jpg" alt="Heyelan örneği 1">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Landslide_Nepal_2015.jpg" alt="Heyelan örneği 2">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Landslide_El_Salvador_2001.jpg" alt="Heyelan örneği 3">
+      </div>
+    </section>
+
+    <section id="egitim">
+      <h2>Eğitim Materyalleri</h2>
+      <ul>
+        <li><a href="#">PDF: Heyelanlardan Nasıl Korunuruz?</a></li>
+        <li><a href="#">Video: Heyelan Öncesi ve Sonrası</a></li>
+        <li><a href="#">Sunum: Heyelan Eğitimi</a></li>
+      </ul>
+    </section>
+
+    <section id="kaynak">
+      <h2>Kaynaklar</h2>
+      <p>Bu sayfa aşağıdaki güvenilir kaynaklardan alınan bilgilerle hazırlanmıştır:</p>
+      <ul>
+        <li><a href="https://www.afad.gov.tr/">AFAD - Afet ve Acil Durum Yönetimi Başkanlığı</a></li>
+        <li><a href="https://tr.wikipedia.org/wiki/Heyelan">Vikipedi - Heyelan</a></li>
+        <li><a href="https://www.usgs.gov/">USGS - ABD Jeoloji Kurumu</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Heyelan Bilinçlendirme Platformu | Emir Kaan tarafından oluşturulmuştur
+  </footer>
+</body>
+</html>
+
